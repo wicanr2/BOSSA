@@ -278,6 +278,7 @@ main(int argc, char* argv[])
         printf("Basic Open Source SAM-BA Application (BOSSA) Version " VERSION "\n"
                "Flash programmer for Atmel SAM devices.\n"
                "Copyright (c) 2011-2012 ShumaTech (http://www.shumatech.com)\n"
+               "Add SAM3A8C reset by WJY\n"
                "\n"
                "Examples:\n"
                "  bossac -e -w -v -b image.bin   # Erase flash, write flash with image.bin,\n"

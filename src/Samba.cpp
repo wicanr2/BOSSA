@@ -669,9 +669,16 @@ Samba::reset(void)
         break;
 
     // SAM3X8E
-    case 0x285e0a60:
+    case 0x285E0A60: 
+    case 0x286E0A60: //SAM3X8H
+    case 0x285B0960: //SAM3X4E
+    case 0x284E0A60: //SAM3X8C
+    case 0x284B0960: //SAM3X4C
+    case 0x283E0A60: //SAM3A8C
+    case 0x283B0960: //SAM3A4C
         writeWord(0x400E1A00, 0xA500000D);
         break;
+
 
     default:
         printf("Reset not supported for this CPU.\n");
