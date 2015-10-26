@@ -1,3 +1,9 @@
+Make bossac and bossac.exe
+
+make bin/bossac # make bossac for linux
+make bin/bossac.exe # make win32 executable, it required install mingw32 firstly.
+
+----------------
 BOSSA 1.4 for Arduino
 
 This version of BOSSA is a fork of the original project and contains some
