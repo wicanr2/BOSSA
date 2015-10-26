@@ -6,18 +6,18 @@ make bin/bossac.exe # make win32 executable, it required install mingw32 firstly
 SAM-BA Protcol Reference 
 http://www.varsanofiev.com/inside/at91_sam_ba.htm
 
-Direction	String	Comment
-N#	Initialization
-LFCR	Initialization response
-WADDRESS0,VALUE000#	Word (32-bit) write
-wADDRESS0,4#	Word (32-bit) read; 4 indicates the length of data in bytes; data are shipped in the next frame from the device
-HADDRESS0,VALU#	Halfword write
-hADDRESS0,2#	Halfword read, 2 indicates the length of data in bytes; data are shipped in the next frame from the device
-OADDRESS0,VA#	Byte (octet?) write
-oADDRESS0,1#	Byte (octet?) read, 1 indicates the length of data in bytes; data are shipped in the next frame from the device
-SADDRESS0,LENGTH00#	Send data to device; actual data are in the next frame
-GADDRESS0#	Execute a program
-RADDRESS0,LENGTH00#	Read data from device; actual data are sent in the next frame
+* Direction	String	Comment
+* N#	Initialization 
+* LFCR	Initialization response
+* WADDRESS0,VALUE000#	Word (32-bit) write
+* wADDRESS0,4#	Word (32-bit) read; 4 indicates the length of data in bytes; data are shipped in the next frame from the device
+* HADDRESS0,VALU#	Halfword write
+* hADDRESS0,2#	Halfword read, 2 indicates the length of data in bytes; data are shipped in the next frame from the device
+* OADDRESS0,VA#	Byte (octet?) write
+* oADDRESS0,1#	Byte (octet?) read, 1 indicates the length of data in bytes; data are shipped in the next frame from the device
+* SADDRESS0,LENGTH00#	Send data to device; actual data are in the next frame
+* GADDRESS0#	Execute a program
+* RADDRESS0,LENGTH00#	Read data from device; actual data are sent in the next frame
 
 
 ----------------
