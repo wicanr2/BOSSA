@@ -1,7 +1,7 @@
 Make bossac and bossac.exe
 
-make bin/bossac # make bossac for linux
-make bin/bossac.exe # make win32 executable, it required install mingw32 firstly.
+- make bin/bossac # make bossac for linux
+- make bin/bossac.exe # make win32 executable, it required install mingw32 firstly.
 
 SAM-BA Protcol Reference 
 http://www.varsanofiev.com/inside/at91_sam_ba.htm
